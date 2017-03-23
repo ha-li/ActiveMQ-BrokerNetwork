@@ -134,7 +134,7 @@
            my own ssl certs 
         -->
         <sslContext>
-          <sslContext keyStore="file:/Users/hlieu/Security/KeyStores/jms.broker.ks" keyStorePassword="jms123" />
+          <sslContext keyStore="file:${activemq.base}/conf/jms.broker.ks" keyStorePassword="jms123" />
         </sslContext>
 
         <!--
